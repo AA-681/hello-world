@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main()
+{
+	printf("∞≤Ω®Ï«\n");
+	return 0;
+}
