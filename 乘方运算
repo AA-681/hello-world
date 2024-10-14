@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a = 1, b, n = 0;
+    cin >> b;
+    while (n < b)
+    {
+        a = a * 2;
+        n++;
+    }
+    cout << "2^" << b << " = " << a;
+    return 0;
+}
