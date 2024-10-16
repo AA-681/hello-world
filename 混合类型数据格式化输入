@@ -1,0 +1,13 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+	double a, d;
+	int b;
+	string c;
+	cin >> a >> b >> c >> d;
+	cout << c << " " << b << " ";
+	cout<<fixed<<setprecision(2)<< a<<" "<<fixed<< setprecision(2) << d;
+	return 0;
+}
